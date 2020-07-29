@@ -1,1 +1,8 @@
+# General Settings
+title: Sandeep's Blog
+description: "Content about Postgres, Elm, and .Net Core"
+baseurl: ""
+url: ""
+
+
 theme: jekyll-theme-cayman
