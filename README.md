@@ -1,4 +1,6 @@
-* Architecture Intro  
+# Postgres
+
+## Architecture Intro  
 [Postgresql DB book!](https://www.db-book.com/db7/online-chapters-dir/32.pdf)  
 [Understanding the PostgreSQL Architecture!](https://severalnines.com/database-blog/understanding-postgresql-architecture)  
 [MVCC and Autovacuum Internals!](https://pgconf.in/files/presentations/2019/02-0101-MVCC_Autovacuum_Internals_PGCONF_2019.pdf)  
@@ -11,7 +13,7 @@
 [PostgreSQLIntroductionandConcepts!](http://www.foo.be/docs-free/aw_pgsql_book.pdf) [Alt link!](http://www.db.ucsd.edu/static/cse132b-sp01/Postgress.pdf)  
 [Introduction to Hacking Postgre!](http://cgi.cse.unsw.edu.au/~cs9315/18s2/readings/HackingPostgreSQL.pdf)  
 
-* Extension APIs  
+## Extension APIs  
 [Postgresql DB book!](https://www.db-book.com/db7/online-chapters-dir/32.pdf)  
 [Postgres Programmers Guide!](https://cis.temple.edu/~vasilis/Courses/CS33/Documentation/programmer.pdf)
 [Implementing your first PostgreSQL extension: From Coding to Distribution!](https://www.postgresql.eu/events/pgconfeu2019/sessions/session/2641/slides/265/Implementing%20your%20first%20PostgreSQL%20extension.pdf)  
@@ -20,7 +22,7 @@
 [Postgres-R (8) Architectur!](https://postgres-r.org/downloads/concept.pdf)
 
 
-* Deep Dive  
+## Deep Dive  
 [postgres visit the catalog!](https://www.postgresql.eu/events/nordicpgday2019/sessions/session/2355/slides/173/visiting_the_catalog_pdfa.pdf)  
 [postgres intro to hacking!](https://www.cse.iitb.ac.in/infolab/Data/Courses/CS631/PostgreSQL-Resources/hacking_intro.pdf)  
 [postgres programmers guide!](https://cis.temple.edu/~vasilis/Courses/CS33/Documentation/programmer.pdf)  
@@ -37,9 +39,14 @@
 [PostgreSQL Update Internals!](https://facility9.com/2011/04/postgresql-update-internals/)  
 [Multiple Buffer Pools and Dynamic Resizing of Buffer Pools in PostgreSQL!](https://research.cs.queensu.ca/home/cords2/no04.pdf)
 
-* Misc/Other  
-(https://pgday.ru/presentation/170/596c2a02a0609.pdf)  
-(https://db.inf.uni-tuebingen.de/staticfiles/publications/compiling-Pg-expressions.pdf)  
-(https://thebuild.com/presentations/not-your-job-pgconf-us-2017.pdf)  
-(http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/)  
+## Misc/Other  
+[https://pgday.ru/presentation/170/596c2a02a0609.pdf]    
+[https://db.inf.uni-tuebingen.de/staticfiles/publications/compiling-Pg-expressions.pdf]   
+[https://thebuild.com/presentations/not-your-job-pgconf-us-2017.pdf]    
+[http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/]    
 
+
+# Elm/Fable  
+
+[From Elm To Fable!](https://lucasmreis.github.io/blog/from-elm-to-fable/)  
+[Does Elm Harmonize With F#?](https://lucasmreis.github.io/blog/does-elm-harmonize-with-f/#final-conclusions)  
