@@ -1,6 +1,8 @@
 
 # [How usable is Raspberry Pi 4 as a desktop](raspberry_pi.md)
 
+# [Primer on dotnet fsharp build system](dotnetfsharp.md)
+
 # Postgres
 
 ## Architecture Intro  
