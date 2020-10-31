@@ -8,6 +8,21 @@ In the end, there was mainly two main stumbling blocks for PI being a desktop: 1
 
 The next big usage improvement came by switching from gnome to xfce4+i3. This is bit tricky to install (see [1]). But works smoothly and obliviated  the need for dragging windows around the screen. All in all, turning on gpu and using qutebrowser and xfce+i3, the experience of desktop on pi surpassed that of  linux or mac on more high end and mainstream hardware.
 
-[1] https://cdaringe.com/i3-xfce
-[2] https://www.dedoimedo.com/computers/rpi4-ubuntu-mate-hw-video-acceleration.html
-[3] https://ubuntu-mate.org/ports/raspberry-pi/
+[1] https://cdaringe.com/i3-xfce  
+[2] https://www.dedoimedo.com/computers/rpi4-ubuntu-mate-hw-video-acceleration.html  
+[3] https://ubuntu-mate.org/ports/raspberry-pi/  
+
+
+### Booting from USB
+On pi4, booting OS from USB is desirable since microSD turns out be a tad slow. The best choice of OS to run from USB is  ubuntu 20.10. In my experience, its the least problematic 64bit OS to install and run from external USB. 
+
+### XFCE4 + i3
+
+I found xfce4+i3 to be most usable/least annoying desktop frontend. Its reasonably lean to run smoothly on pi4.  The instructions for installation are [here]( http://feeblenerd.blogspot.com/2015/11/pretty-i3-with-xfce.html) and [here](https://cdaringe.com/i3-xfce). The command below lists all the package required for the xfce4+i3 setup. 
+ 
+
+#### Packages 
+```
+apt install xubuntu-desktop i3 xcb-proto  libxcb1-dev libglib2.0-dev gobject-introspection libjson-glib-dev gtk-doc-tools autoconf libtool libgtk2.0-dev libxfce4ui-2-dev libxfce4util-dev xfce4-panel-dev xfce4-dev-tools libxfce4ui-1-dev libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool libxcb-shape0-dev libxcb-xrm-dev
+ 
+```
