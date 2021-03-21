@@ -1,3 +1,12 @@
+# sort file by size: lost from the interwebs
+```bash
+#!/bin/bash
+
+ du -k | sort -n | perl -ne 'if ( /^(\d+)\s+(.*$)/){$l=log($1+.1);$m=int($l/log(1024)); print
+f  ("%6.1f\t%s\t%25s  %s\n",($1/(2**(10*$m))),(("K","M","G","T","P")[$m]),"*"x (1.5*$l),$2);}
+'
+```
+
 
 # [How usable is Raspberry Pi 4 as a desktop](raspberry_pi.md)
 

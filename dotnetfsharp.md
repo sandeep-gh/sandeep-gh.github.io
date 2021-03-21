@@ -3,7 +3,7 @@
 The .Net ecosystem comes with a nice set of tools to organize and build the codebase for applications. 
 This approach is different from C/C++ universe where Make (or some similar) build system is
 used to describe layout, dependencies and build directives of the codebase.
-The build system in .NET is centered around the  concept of solution, libraries and apps. 
+The build system in .NET is centered around the  concept of solution, templates, libraries and apps. 
 To build an application, we first create a solution, add libraries to these,
 and finally describe dependencies of  applications to the libraries. 
 
