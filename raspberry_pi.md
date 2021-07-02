@@ -26,3 +26,35 @@ I found xfce4+i3 to be most usable/least annoying desktop frontend. Its reasonab
 apt install xubuntu-desktop i3 xcb-proto  libxcb1-dev libglib2.0-dev gobject-introspection libjson-glib-dev gtk-doc-tools autoconf libtool libgtk2.0-dev libxfce4ui-2-dev libxfce4util-dev xfce4-panel-dev xfce4-dev-tools libxfce4ui-1-dev libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool libxcb-shape0-dev libxcb-xrm-dev
  
 ```
+
+
+## Install Notes
+
+### for termux
+
+#### x enviorment
+```
+pkg install x11-repo (multiple times)
+pkg in tigervnc i3 aterm
+export DISPLAY=:1
+vncserver :1
+```
+
+
+##### use i3 instead of twm
+```
+1. edit ~/.vnc/xstartup
+2. change twm --> i3-wm
+3. killall Xvnc
+4. vncserver :1 
+```
+##### vnc viewer
+install and connect to 127.0.0.1:1
+The final view is not great
+
+
+### for pi4
+```
+apt install i3 i3-blocks
+```
+i3-gaps tbd
