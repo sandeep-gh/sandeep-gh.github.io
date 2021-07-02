@@ -58,3 +58,8 @@ The final view is not great
 apt install i3 i3-blocks
 ```
 i3-gaps tbd
+
+####  change lightdm to give option for i3
+from (https://askubuntu.com/questions/874850/16-10-lightdm-failed-to-start-session-with-i3)
+in file /etc/lightdm/lightdm.conf change user-session key value to i3.
+This forces lightdm to show options for various windowmanagers
