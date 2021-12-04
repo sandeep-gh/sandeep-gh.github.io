@@ -67,5 +67,6 @@ f  ("%6.1f\t%s\t%25s  %s\n",($1/(2**(10*$m))),(("K","M","G","T","P")[$m]),"*"x (
 [Fable React is nice. But what about Fable Preact?](https://medium.com/@kai.ito/fable-react-is-nice-but-what-about-fable-preact-517887ce2cde)
 [Lazy Elmish React ](http://www.colinbull.net/)
 
+[Bootstrap.sh](scripts/bootstrap.sh)
 ## Other
 <https://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html>
