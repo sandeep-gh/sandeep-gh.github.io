@@ -1,3 +1,5 @@
+[./pyfile.md](pyfile.md)
+
 # sort file by size: lost from the interwebs
 ```bash
 #!/bin/bash
